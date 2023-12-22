@@ -1,0 +1,49 @@
+body {
+    background-color: aqua;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(255, 47, 0);
+    display: flex;
+    height: 100px;
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;  
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+}
+
+.my-pic {
+    height: 98px;
+    width: auto;
+    border: 2px;
+    margin-left: 5px;
+    border-style: solid;
+    border-color: black;
+    justify-content: left;
+    border-radius: 15px 50px;
+}
+
+
+.nav-links{
+        margin: 0;
+        padding: 0;
+        list-style: none; /
+}
+
+.links {
+    display: inline-block;
+   
+}
+
+.links li {
+    display: inline-block;
+    margin-left: 20px; 
+    background-color: rgb(255, 47, 0);
+}
