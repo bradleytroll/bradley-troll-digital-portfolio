@@ -11,6 +11,7 @@ html {
 body {
     background-color: aqua;
     margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;  
 }
 
 header {
@@ -21,7 +22,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    font-family:Georgia, 'Times New Roman', Times, serif;  
     border-bottom: 10px;
     border-style: dashed;
 }
@@ -72,7 +72,7 @@ header {
     align-items: center;
     margin-left: 10px;
     padding: 20px;
-    margin-right: 10px;
+    margin-right: 50px;
     border-radius: 5px;
 }
 
@@ -95,6 +95,59 @@ header {
     border-radius: 5px;
     margin: 0px 3px;
 } */
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: black;
+    margin-left: 10px;
+    padding: 20px;
+    margin-right: 50px;
+    border-radius: 5px;
+  }
+
+  .portfolio h1 {
+    color: white;
+  }
+  
+  .main-photo {
+    width: 70%;
+    height: auto;
+    margin-bottom: 20px;
+    max-width: 100%
+  }
+  
+  .secondary-photos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .m-photo{
+    width: 80%;
+    height: auto;
+  }
+
+  .sec-photo {
+    max-width: 45%;
+    height: auto;
+  }
+
+  
+
+
+
 
 Media query for smaller screens
 @media screen and (max-width: 600px) {
