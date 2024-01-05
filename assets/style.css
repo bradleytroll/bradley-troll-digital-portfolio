@@ -15,15 +15,20 @@ body {
 }
 
 header {
-    background-color: rgb(84, 45, 80);
+    background-color: darkslategray;
     display: flex;
     height: auto;
     width: 98%;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    border-bottom: 10px;
-    border-style: dashed;
+    margin-left: 10px;
+    padding: 20px;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 5px;
 }
 
 .left-content {
@@ -45,11 +50,11 @@ header {
 .header h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 50px;
-    color: white; 
+    color: pink; 
 }
 
 .header h2 {
-    color: pink;
+    color: white;
     font-stretch: ultra-expanded;
 }
 
@@ -68,7 +73,23 @@ header {
     display: inline-block;
     margin-left: 20px; 
     color: white;
-    background-color: rgb(84, 45, 80);
+    background-color: darkslategray;
+}
+
+.links li a:link {
+    color: white;
+}
+
+.links li a:visited {
+    color: white;
+}
+
+.links li a:hover {
+    color: pink;
+}
+
+.links li a:active {
+    color: pink;
 }
 
 .about-me {
@@ -83,24 +104,16 @@ header {
 }
 
 .about-me h1 {
-    /* display: block; */
     text-align: right;
     margin: 0px 5px;
+    color: pink;
 }
+
 
 .about-me p {
     max-width: 80%;
     margin: 0px 15px;
 }
-
-/* .about-me img{
-    max-width: 100%;
-    height: auto;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 5px;
-    margin: 0px 3px;
-} */
 
 .portfolio {
     display: flex;
@@ -108,59 +121,105 @@ header {
     align-items: center;
     justify-items: center;
     text-align: center;
-    background-color: black;
+    background-color: darkslategray;
     margin-left: 10px;
     padding: 20px;
     margin-right: 50px;
     border-radius: 5px;
   }
 
-  .portfolio h1 {
-    color: white;
+.portfolio h1 {
+    color: pink;
   }
+
+.portfolio p {
+    color: white;
+}
   
-  .main-photo {
-    width: 70%;
+.main-photo {
+    width: 90%;
     height: auto;
     margin-bottom: 20px;
-    max-width: 100%
-  }
+    max-width: 100%;
+
+}
   
-  .secondary-photos {
+.secondary-photos {
     display: flex;
     flex-direction: column;
     gap: 10px;
-   
-
+    width: 70%;
   }
   
-  .row {
+.row {
     display: flex;
     justify-content: center;
     gap: 10px;
   }
 
-  .m-photo{
-    width: 80%;
+.m-photo{
+    max-width: 70%;
     height: auto;
-  }
-
-  .sec-photo {
-    max-width: 45%;
-    height: auto;
-  }
-
-  
-  
-
-
-
-
-Media query for smaller screens
-@media screen and (max-width: 600px) {
-    .about-me {
-        /* Adjust styles for smaller screens */
-        display: flex; /* For example, change the display property */
-        /* Add more styles as needed */
-    }
+    border: 2px solid white; /* Add a white border */
+    border-radius: 5px; /* Optional: Add border radius */
+    overflow: hidden; /* Optional: Hide overflowing content */
 }
+
+.sec-photo {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure figcaption {
+    color: white;
+}
+
+.contact {
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 20px;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.contact h1 {
+    text-align: right;
+    margin: 0px 5px;
+    color: pink;
+}
+
+.contact-links-div {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.contact-links li{
+    display: inline;
+    margin-left: 30px; 
+    color: white;
+    background-color: darkslategray;
+}
+
+/* Unvisited link */
+.contact-links li a:link {
+    color: white;
+}
+
+/* Visited link */
+.contact-links li a:visited {
+    color: white;
+}
+
+/* Mouse over link */
+.contact-links li a:hover {
+    color: pink;
+}
+
+/* Selected link */
+.contact-links li a:active {
+    color: pink;
+}
+

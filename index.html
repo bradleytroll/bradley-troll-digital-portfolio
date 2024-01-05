@@ -4,51 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Document</title>
+    <title>Bradley Troll Digital Portfolio</title>
 </head>
 <body>
     <header class="header">
         <div class="left-content">
             <h2>Bradley Troll</h2>
             <img class="my-pic" src="./assets/IMG_5192.jpeg">
-            <h1>Web Design Services</h1>
+            <h1>Digital Portfolio</h1>
         </div>
         <nav class="links">
             <ul class="nav-links">
-                <li>About Me</li>
-                <li>Portfolio</li>
-                <li>Contact Me</li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
     </header>
     <div><br></div>
-    <div class="about-me">
+    <div class="about-me" id="about-me">
         <h1>About<br>Me</h1>
         <p>Welcome to my first Portfolio site. It may seem a bit basic right now, but as I progress through Coding Bootcamp, I expect this page to look far more professional. For the past 15 years, I've taught high school English, which has had its up and downs. Now I find myself teaching in a state that seeks to limit access to educational opportunities (and a fair wage for teachers). I'm hoping to transition into the world of coding and web design over the next year. </p>
         <!-- <img src="./assets/btroll.jpg" alt="Bradley Troll"> -->
     
     </div>
     <div><br> </div>
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <h1>Portfolio</h1>
-        <div class="main-photo">
-            <img class ="m-photo" src="./assets/generic-image-placeholder.webp" alt="Main Photo">
-          </div>
-          <div class="secondary-photos">
+        <div><br></div>
+        <figure class="main-photo">
+            <a href="https://bradleytroll.github.io/module_1_challenge/" target="_blank">
+                <img class="m-photo" src="./assets/Screenshot 2024-01-05 at 6.13.41 PM.png" alt="Main Photo">
+                <figcaption>Our first project asked us to achieve maximum search engine optimization by using semantic code. Review the HTML in dev tools to see the work.</figcaption>
+            </a>
+        </figure>
+        <div class="secondary-photos">
             <div class="row">
-              <img class="sec-photo" src="./assets/generic-image-placeholder.webp" alt="Photo 2">
-              <img class="sec-photo" src="./assets/generic-image-placeholder.webp" alt="Photo 3">
+                <figure>
+                    <img class="sec-photo" src="./assets/generic-image-placeholder.webp" alt="Photo 2">
+                    <figcaption>Coming Soon!</figcaption>
+                </figure>
+                <figure>
+                    <img class="sec-photo" src="./assets/generic-image-placeholder.webp" alt="Photo 3">
+                    <figcaption>Coming Soon!</figcaption>
+                </figure>
             </div>
             <div class="row">
-              <img class="sec-photo" src="./assets/generic-image-placeholder.webp" alt="Photo 4">
-              <img class="sec-photo" src="./assets/generic-image-placeholder.webp" alt="Photo 5">
+                <figure>
+                    <img class="sec-photo" src="./assets/generic-image-placeholder.webp" alt="Photo 4">
+                    <figcaption>Coming Soon!</figcaption>
+                </figure>
+                <figure>
+                    <img class="sec-photo" src="./assets/generic-image-placeholder.webp" alt="Photo 5">
+                    <figcaption>Coming Soon!</figcaption>
+                </figure>
             </div>
-          </div>
+        </div>
     </div>
-    <div class="contact">
-        Contact Me - Should include links to email, telephone number, github
+    <div><br> </div>
+    <div class="contact" id="contact">
+        <h1>Contact<br>Me</h1>  
+        <nav class="contact-links-div">
+            <ul class="contact-links">
+                <li class="contact-links">
+                    <a href="mailto:fakeemail@email.com" target="_blank">Email</a>
+                </li>
+                <li class="contact-links">
+                    <a href="tel:+1234567890">Telephone</a>
+                </li>
+                <li class="contact-links">
+                    <a href="https://github.com/bradleytroll" target="_blank">GitHub</a>
+                </li>
+            </ul>
+        </nav>
     </div>
-    
+
+
 </body>
 </html>
 
