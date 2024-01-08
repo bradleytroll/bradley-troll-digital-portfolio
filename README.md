@@ -12,7 +12,7 @@ This code represents the Module 2 Challenge. This single-page application is a b
 
 Viewing the Portfolio:
 
-![Full Site](./assets/full-page.png?raw=true "Full Portfolio Site" | width:10) 
+<img src="./assets/full-page.png?raw=true" alt="Full Portfolio Site" width="200" />
 
 Open the index.html file in a web browser to view the entire portfolio.
 Navigation:
@@ -33,7 +33,7 @@ Use the provided links (Email, Telephone, GitHub) to get in touch with me for in
 
 Responsiveness:
 
-![Responsive Screen](./assets/responsive.png?raw=true "Responsive Screen")
+<img src="./assets/responsive.png?raw=true" alt="Responsive Page" width="200" />
 
 Test the responsiveness by resizing the browser window or accessing the portfolio on different devices (desktop, tablet, mobile).
 

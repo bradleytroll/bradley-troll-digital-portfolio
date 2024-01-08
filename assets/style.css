@@ -157,12 +157,11 @@ header {
 }
 
 .bottom-left {
-    position: absolute; /* Position the text absolutely */
-    bottom: 8px; /* Adjust the positioning from the bottom */
-    left: 8px; /* Adjust the positioning from the left */
-    color: black;
-    background-color: pink; /* Semi-transparent background */
-    padding: 4px 8px; /* Padding for better readability */
+    position: absolute; 
+    bottom: 8px; 
+    left: 8px; 
+    background-color: pink; 
+    padding: 4px 8px; 
     font-size: 30px;
 }
   
@@ -182,9 +181,9 @@ header {
 .m-photo{
     max-width: 100%;
     height: auto;
-    border: 2px solid white; /* Add a white border */
-    border-radius: 5px; /* Optional: Add border radius */
-    overflow: hidden; /* Optional: Hide overflowing content */
+    border: 2px solid white; 
+    border-radius: 5px; 
+    overflow: hidden; 
 }
 
 .sec-photo {
