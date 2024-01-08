@@ -33,6 +33,8 @@ Use the provided links (Email, Telephone, GitHub) to get in touch with me for in
 
 Responsiveness:
 
+![Responsive Screen](./assets/responsive.png?raw=true "Responsive Screen")
+
 Test the responsiveness by resizing the browser window or accessing the portfolio on different devices (desktop, tablet, mobile).
 
 Note on Placeholder Images:
