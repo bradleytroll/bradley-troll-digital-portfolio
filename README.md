@@ -39,7 +39,7 @@ Note on Placeholder Images:
 
 Some images in the portfolio are placeholders and will be replaced with actual project visuals in the future.
 
-## Contributors: 
+## Authors
 
 Bradley Troll, bradleytroll@gmail.com
 

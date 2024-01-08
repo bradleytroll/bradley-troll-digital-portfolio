@@ -126,6 +126,7 @@ header {
     padding: 20px;
     margin-right: 50px;
     border-radius: 5px;
+    position: relative;
   }
 
 .portfolio h1 {
@@ -141,11 +142,28 @@ header {
 }
   
 .main-photo {
+    position: relative;
+    text-align: center;
+    color: white;
     width: 90%;
     height: auto;
     margin-bottom: 20px;
     max-width: 100%;
+}
 
+.photo-container {
+    position: relative;
+    display: inline-block;
+}
+
+.bottom-left {
+    position: absolute; /* Position the text absolutely */
+    bottom: 8px; /* Adjust the positioning from the bottom */
+    left: 8px; /* Adjust the positioning from the left */
+    color: black;
+    background-color: pink; /* Semi-transparent background */
+    padding: 4px 8px; /* Padding for better readability */
+    font-size: 30px;
 }
   
 .secondary-photos {
@@ -162,7 +180,7 @@ header {
   }
 
 .m-photo{
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     border: 2px solid white; /* Add a white border */
     border-radius: 5px; /* Optional: Add border radius */
@@ -174,7 +192,21 @@ header {
     height: auto;
   }
 
-  figure figcaption {
+.photo-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    color: black;
+    background-color: pink;
+    padding: 4px 8px;
+}
+
+figure figcaption {
     color: white;
 }
 
