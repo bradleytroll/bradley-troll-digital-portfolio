@@ -19,19 +19,19 @@ Navigation:
 
 Click on the navigation links in the header to jump to different sections of the portfolio (About Me, Portfolio, Contact Me).
 
-About Me Section:
+### About Me Section:
 
 Read through the 'About Me' section to learn about my background, experiences, and goals.
 
-Portfolio Section:
+### Portfolio Section:
 
 Explore the featured project and click on the provided links to visit project pages or external websites associated with showcased work.
 
-Contact Me Section:
+### Contact Me Section:
 
 Use the provided links (Email, Telephone, GitHub) to get in touch with me for inquiries or collaborations.
 
-Responsiveness:
+### Responsiveness:
 
 <img src="./assets/responsive.png?raw=true" alt="Responsive Page" width="200" />
 
@@ -40,6 +40,28 @@ Test the responsiveness by resizing the browser window or accessing the portfoli
 Note on Placeholder Images:
 
 Some images in the portfolio are placeholders and will be replaced with actual project visuals in the future.
+
+## Technologies Used
+
+This project was built using HTML and CSS.
+
+## Folder Structure
+
+The project follows a simple folder structure:
+- assets/       (contains images and other assets)
+- index.html    (main HTML file)
+- assets/style.css (CSS styles)
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit pull requests.
+
+### Guidelines for Contributing
+
+- Fork the repository.
+- Create a new branch.
+- Make your changes and test thoroughly.
+- Submit a pull request with a clear description of your changes.
 
 ## Authors
 
