@@ -12,7 +12,7 @@ This code represents the Module 2 Challenge. This single-page application is a b
 
 Viewing the Portfolio:
 
-![full site] (/assets/full-page.png "Full Portfolio Site")
+![full site] (./assets/full-page.png "Full Portfolio Site")
 
 Open the index.html file in a web browser to view the entire portfolio.
 Navigation:
