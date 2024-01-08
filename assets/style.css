@@ -227,3 +227,30 @@ header {
     color: pink;
 }
 
+@media screen and (max-width: 800px) {
+    header {
+        flex-direction: column;
+        
+    }
+    #about-me {
+        flex-direction: column;
+
+    }
+    #about-me h1 {
+       text-align: center;
+    }
+    #contact {
+        flex-direction: column;
+    }   
+    #contact h1 {
+        text-align: center;
+    }
+    #contact-links-div {
+        margin-left: 0;
+        text-align: center;
+    }
+    #contact-links li{
+        text-align: center;
+        margin: 0;
+    }
+}
